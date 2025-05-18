@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nu9YT9jLxus=",
+  "success": true,
+  "projectFilePath": "/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/VideoGameAPI.csproj",
+  "expectedPackageFiles": [
+    "/home/david/.nuget/packages/microsoft.aspnetcore.openapi/9.0.5/microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "/home/david/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/david/.nuget/packages/scalar.aspnetcore/2.3.1/scalar.aspnetcore.2.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
