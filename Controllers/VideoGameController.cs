@@ -34,5 +34,71 @@ namespace VideoGameAPI.Controllers
                 Publisher = "CD Projekt"
             }
         };
+        
+        // Get entire list of video games
+        [HttpGet]
+        public ActionResult<List<VideoGame>> GetVideoGames()
+        {
+            return Ok(videoGames);
+        }
+
+        // Get single video game with Id parameter
+        [HttpGet("{id}")]
+        public ActionResult<VideoGame> GetVideoGameById(int id)
+        {
+            var game = videoGames.FirstOrDefault(game => game.Id == id);
+            if (game is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(game);
+        }
+
+        // Add a new video game
+        [HttpPost]
+        public ActionResult<VideoGame> AddVideoGame(VideoGame newGame)
+        {
+            if (newGame is null)
+            {
+                return BadRequest();
+            }
+
+            newGame.Id = videoGames.Max(game => game.Id) + 1;
+            videoGames.Add(newGame);
+            return CreatedAtAction(nameof(GetVideoGameById), new { id = newGame.Id }, newGame);
+        }
+
+        // Update a video game
+        [HttpPut("{id}")]
+        public IActionResult UpdateVideoGame(int id, VideoGame updatedGame)
+        {
+            var game = videoGames.FirstOrDefault(game => game.Id == id);
+            if (game is null)
+            {
+                return NotFound();
+            }
+
+            game.Title = updatedGame.Title;
+            game.Platform = updatedGame.Platform;
+            game.Developer = updatedGame.Developer;
+            game.Publisher = updatedGame.Publisher;
+
+            return NoContent();
+        }
+        
+        // Delete a video game
+        [HttpDelete("{id}")]
+        public IActionResult DeleteVideoGame(int id)
+        {
+            var game = videoGames.FirstOrDefault(game => game.Id == id);
+            if (game is null)
+            {
+                return NotFound();
+            }
+
+            videoGames.Remove(game);
+            return NoContent();
+        }
     }
 }
