@@ -27,3 +27,14 @@
 /home/david/Code/Personal/dotnet/VideoGameAPI-1.0/obj/Debug/net9.0/VideoGameAPI.genruntimeconfig.cache
 /home/david/Code/Personal/dotnet/VideoGameAPI-1.0/obj/Debug/net9.0/ref/VideoGameAPI.dll
 /home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Scalar.AspNetCore.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/obj/Debug/net9.0/VideoGameAPI.sourcelink.json
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/home/david/Code/Personal/dotnet/VideoGameAPI-1.0/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
