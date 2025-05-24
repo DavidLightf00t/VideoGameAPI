@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoGameAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3d33fbe1670490dbce0d5437a394e19a26c4b03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0caaa3690c2f9b4b558c2bf8a4f105395fb689d")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoGameAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoGameAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
